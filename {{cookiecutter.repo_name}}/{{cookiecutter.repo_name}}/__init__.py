@@ -11,6 +11,7 @@ def main(global_config, **settings):
     init_logging(config)
 
     # includes
+    config.include('cornice')
     config.include('.models')
     config.include('.routes')
     config.scan()
