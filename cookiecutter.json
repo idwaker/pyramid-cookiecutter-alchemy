@@ -1,4 +1,4 @@
 {
-    "project_name": "Pyramid Scaffold",
+    "project_name": "Pyramid REST Scaffold",
     "repo_name": "{{cookiecutter.project_name.lower().strip().replace(' ', '_').replace(':', '_').replace('-', '_').replace('!', '_')}}"
 }
